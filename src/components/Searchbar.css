@@ -1,0 +1,25 @@
+.search_container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.search__input {
+  width: 40%;
+  height: 1.2rem;
+  padding: 0.6rem;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.btn {
+  height: 2.6rem;
+  width: 4rem;
+  cursor: pointer;
+  background-color: skyblue;
+  border: none;
+}
