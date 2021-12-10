@@ -1,0 +1,28 @@
+.recipes__container {
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.cards {
+  width: 22rem;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+}
+
+.cards img {
+  height: 16rem;
+  width: 14rem;
+  min-height: 8rem;
+  min-width: 6rem;
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+.cards h3 {
+  padding-bottom: 1rem;
+}
+
+.cards p {
+  padding: 1rem;
+}

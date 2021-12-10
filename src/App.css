@@ -5,3 +5,10 @@ body {
 h1 {
   text-align: center;
 }
+
+.recipe__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+}

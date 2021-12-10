@@ -13,13 +13,12 @@
   outline: none;
   font-size: 0.8rem;
   font-weight: 500;
-  margin-right: 0.2rem;
+  /* margin-right: 0.2rem; */
 }
 
-.btn {
-  height: 2.6rem;
-  width: 4rem;
+.search__icon {
+  padding: 0.7rem;
+  background-color: greenyellow;
+  color: white;
   cursor: pointer;
-  background-color: skyblue;
-  border: none;
 }
