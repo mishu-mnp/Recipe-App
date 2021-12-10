@@ -8,6 +8,7 @@
   text-align: center;
   background-color: white;
   justify-content: center;
+  padding: 1rem;
 }
 
 .cards img {
@@ -16,13 +17,18 @@
   min-height: 8rem;
   min-width: 6rem;
   object-fit: contain;
-  padding: 0.5rem;
 }
 
 .cards h3 {
-  padding-bottom: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .cards p {
-  padding: 1rem;
+  padding: 0.8rem;
+  text-align: start;
+}
+
+.cal {
+  text-align: center;
+  padding-bottom: 0.4rem;
 }
