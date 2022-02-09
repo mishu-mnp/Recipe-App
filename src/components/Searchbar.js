@@ -13,14 +13,11 @@ const Searchbar = (props) => {
         props.setSearchValue(ingredients)
     }
 
-
     const handleKeyDown = (event) => {
         if (event.key === 'Enter') {
             handleSearch(ingredients);
         }
     }
-
-
 
 
     return (
@@ -30,7 +27,6 @@ const Searchbar = (props) => {
                 <input className='search__input' value={ingredients} onKeyDown={handleKeyDown} onChange={handleOnchange} type="text" placeholder='enter ingredients' />
                 <span className='search__icon' onClick={handleSearch}><i className="fas fa-search"></i></span>
             </div>
-
         </div>
     )
 }
