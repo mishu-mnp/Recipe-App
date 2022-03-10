@@ -23,9 +23,6 @@ const App = () => {
         setRecipes(parsedData.hits)
     }
 
-    console.log(searchItem)
-    console.log(recipes);
-
     useEffect(() => {
         getRecipe();
         // eslint-disable-next-line

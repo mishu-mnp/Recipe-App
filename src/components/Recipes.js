@@ -3,8 +3,6 @@ import '../components/Recipes.css';
 
 const Recipes = (props) => {
 
-    console.log(props.ingredients)
-
     return (
         <div className='recipes'>
             <div className="recipes__container">
